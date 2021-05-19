@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+main{
+    
+    max-width: 800px;
+    margin: auto;
+}
+
+main, header, section, article, footer{
+    
+    border: 1px solid black;
+}
+
+div{
+    
+    display: grid;
+    
+    grid-template-columns: 100px auto;
+}
+
+label{
+    
+    text-align: right;
+    padding-right: 10px;
+}
